@@ -207,11 +207,24 @@
     <Compile Include="Migrations\201611051212029_DefaultStructure.Designer.cs">
       <DependentUpon>201611051212029_DefaultStructure.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611051248092_AddSubscribeNewsAndMembType.cs" />
+    <Compile Include="Migrations\201611051248092_AddSubscribeNewsAndMembType.Designer.cs">
+      <DependentUpon>201611051248092_AddSubscribeNewsAndMembType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611051252171_AddMembershipType.cs" />
+    <Compile Include="Migrations\201611051252171_AddMembershipType.Designer.cs">
+      <DependentUpon>201611051252171_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611051257044_ModifyMembershipTypeId.cs" />
+    <Compile Include="Migrations\201611051257044_ModifyMembershipTypeId.Designer.cs">
+      <DependentUpon>201611051257044_ModifyMembershipTypeId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -295,6 +308,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611051212029_DefaultStructure.resx">
       <DependentUpon>201611051212029_DefaultStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611051248092_AddSubscribeNewsAndMembType.resx">
+      <DependentUpon>201611051248092_AddSubscribeNewsAndMembType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611051252171_AddMembershipType.resx">
+      <DependentUpon>201611051252171_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611051257044_ModifyMembershipTypeId.resx">
+      <DependentUpon>201611051257044_ModifyMembershipTypeId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
