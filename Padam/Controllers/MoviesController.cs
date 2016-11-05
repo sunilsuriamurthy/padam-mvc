@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Padam.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,9 @@ namespace Padam.Controllers
         // GET: Movies
         public ActionResult Index()
         {
-            return View();
+            List<Movie> movies = new List<Movie> { new Movie { ID = 1, Name = "Shrek" }, new Movie { ID = 2, Name = "Commando" } };
+
+            return View("MoviesList", movies);
         }
     }
 }

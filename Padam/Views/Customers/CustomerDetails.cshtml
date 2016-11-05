@@ -1,0 +1,22 @@
+﻿@model Padam.Models.Customer
+@{
+    ViewBag.Title = "CustomerDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer Details</h2>
+
+<content>
+    <div class="table table-­bordered table-­hover">
+        <div class="row">
+            <div class="col-md-4">Name :</div>
+            <div class="col-md-8">@Html.DisplayFor(modelItem => modelItem.Name)</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">City :</div>
+            <div class="col-md-8">@Html.DisplayFor(modelItem => modelItem.City)</div>
+        </div>
+    </div>
+</content>
+
+

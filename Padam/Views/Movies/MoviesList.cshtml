@@ -6,4 +6,9 @@
 
 <h2>MoviesList</h2>
 
-<i>@(model + 1)</i>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name </li>
+    }
+</ul>
